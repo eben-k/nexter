@@ -13,7 +13,7 @@
 
   display: grid;
   grid-template-rows: 1fr min-content 6rem 1fr;
-  grid-template-columns: max-content;
+  grid-template-columns: max-content; //makes use of the grid item with the largest width to determine the grid column. The reverse happens with min-content
   grid-row-gap: 1.5rem;
   justify-content: center;
 
